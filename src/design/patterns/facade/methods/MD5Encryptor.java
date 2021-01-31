@@ -1,6 +1,6 @@
-package design.patterns.facade;
+package design.patterns.facade.methods;
 
-class MD5Encryptor {
+public class MD5Encryptor {
 
     public void encrypt(String key, String text) {
         System.out.println("<MD5>" + key + text + "<MD5>");

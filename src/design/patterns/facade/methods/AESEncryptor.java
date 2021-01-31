@@ -1,6 +1,6 @@
-package design.patterns.facade;
+package design.patterns.facade.methods;
 
-class AESEncryptor {
+public class AESEncryptor {
 
     public void encrypt(String text) {
         System.out.println("<AES>" + text + "<AES>");

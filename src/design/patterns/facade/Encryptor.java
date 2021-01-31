@@ -1,5 +1,9 @@
 package design.patterns.facade;
 
+import design.patterns.facade.methods.AESEncryptor;
+import design.patterns.facade.methods.MD5Encryptor;
+import design.patterns.facade.methods.SHAEncryptor;
+
 import java.util.UUID;
 
 public class Encryptor {

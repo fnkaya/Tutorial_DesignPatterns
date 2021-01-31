@@ -1,6 +1,6 @@
-package design.patterns.facade;
+package design.patterns.facade.methods;
 
-class SHAEncryptor {
+public class SHAEncryptor {
 
     public void encrypt(String key, String text, boolean condition) {
 
