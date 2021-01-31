@@ -1,6 +1,6 @@
-package design.patterns.factory;
+package design.patterns.factory.products;
 
-class Hp implements Computer{
+public class Hp implements Computer {
 
     @Override
     public void getBrand() {

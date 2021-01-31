@@ -1,5 +1,9 @@
 package design.patterns.factory;
 
+import design.patterns.factory.products.ComputerBrand;
+import design.patterns.factory.products.Hp;
+import design.patterns.factory.products.Mac;
+
 public class Test {
 
     public static void main(String[] args) {
