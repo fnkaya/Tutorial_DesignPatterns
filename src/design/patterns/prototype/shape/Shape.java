@@ -22,8 +22,7 @@ public abstract class Shape {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Shape)) return false;
         Shape shape = (Shape) o;
         return this.x == shape.x && this.y == shape.y && Objects.equals(this.color, shape.color);
     }

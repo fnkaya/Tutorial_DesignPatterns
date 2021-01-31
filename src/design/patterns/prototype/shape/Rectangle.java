@@ -5,9 +5,7 @@ public class Rectangle extends Shape {
     public int width;
     public int height;
 
-    public Rectangle() {
-
-    }
+    public Rectangle() {}
 
     public Rectangle(Rectangle target) {
         super(target);
@@ -24,12 +22,8 @@ public class Rectangle extends Shape {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-
+        if (!(o instanceof Rectangle) || !super.equals(o)) return false;
         Rectangle rectangle = (Rectangle) o;
-
         return this.width == rectangle.width && this.height == rectangle.height;
     }
 }
